@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dart-Tournament-Manager</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <main class="container">
+    <header class="card">
+      <h1>Dart-Tournament-Manager</h1>
+      <p class="subtitle">Willkommen! 🎯</p>
+      <p class="text">
+        Das ist ein minimaler Startpunkt (Flask) mit sauberer Struktur und vorbereitetem SQLite-Grundgerüst.
+      </p>
+      <div class="actions">
+        <a class="btn" href="#" onclick="alert('Nächster Schritt: Turnier anlegen 🙂'); return false;">Turnier anlegen (später)</a>
+        <a class="btn secondary" href="#" onclick="alert('Nächster Schritt: Spieler verwalten 🙂'); return false;">Spieler (später)</a>
+      </div>
+      <footer class="hint">
+        Server läuft lokal auf <strong>127.0.0.1:5000</strong>
+      </footer>
+    </header>
+  </main>
+
+  <div class="version">Version: {{ app_version }}</div>
+</body>
+</html>
